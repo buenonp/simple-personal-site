@@ -5,6 +5,7 @@ html {
 body {
     height: 100%;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #main {
@@ -14,7 +15,7 @@ body {
 
 header {
     height: 30vh;
-    background-color: #607d8b;
+    background-color: #607D8B;
     color: white;
     padding: 5px;
     display: flex;
@@ -42,6 +43,7 @@ header {
     header > div {
         margin: auto;
         text-align: center;
+        word-wrap: break-word;
     }
 
     header .profile-picture {
@@ -57,11 +59,29 @@ section {
     padding-bottom: 50px;
 }
 
+    section > div {
+        width: 85%;
+        background: #CFD8DC;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 15px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    section .title {
+        color: #616161;
+    }
+
+    section .content {
+        color: #757575;
+    }
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #607d8b;
+    background-color: #607D8B;
     color: white;
     text-align: center;
     padding-top: 10px;
